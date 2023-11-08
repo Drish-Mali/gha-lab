@@ -12,8 +12,6 @@ jobs:
   new:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: echo "new"
-        shell: bash
+      - run: python inside.py
 
   
